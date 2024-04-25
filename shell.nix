@@ -8,7 +8,8 @@ in
         python-pkgs.matplotlib
         python-pkgs.scikit-image
         python-pkgs.jupyter
-        # todo jupyter
+        python-pkgs.torch
+        python-pkgs.pytorch-lightning
       ]))
     ];
   }
