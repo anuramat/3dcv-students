@@ -11,6 +11,7 @@ in
         python-pkgs.torch
         python-pkgs.torchvision
         python-pkgs.pytorch-lightning
+        python-pkgs.jupyter-collaboration
       ]))
     ];
   }
