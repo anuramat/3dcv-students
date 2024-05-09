@@ -1,5 +1,5 @@
 let
-  pkgs = import <nixpkgs> {};
+  pkgs = import <nixos-unstable> {};
 in
   pkgs.mkShell {
     packages = [
@@ -8,11 +8,13 @@ in
           numpy
           matplotlib
           scikit-image
+          scikit-learn
           jupyter
           torch
           torchvision
           pytorch-lightning
-          jupyter-collaboration
+          # jupyter-collaboration
+          jupytext
         ]))
     ];
   }
